@@ -19,6 +19,7 @@ body, html{
 nav{
     position: sticky;
     top: 0;
+    background-color: white;
 }
 #saul_logo{
     height: 20vh;
