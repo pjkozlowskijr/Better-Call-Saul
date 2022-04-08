@@ -1,0 +1,141 @@
+body, html{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url(./images/nza_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.container{
+    background-color: white;
+    padding: 0;
+}
+
+/* NAVBAR STYLING */
+
+nav{
+    position: sticky;
+    top: 0;
+}
+#saul_logo{
+    height: 20vh;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+#login{
+    position: absolute;
+    top: 0;
+    right: 4%;
+    height: 5vh;
+    width: 5vw;
+    border: none;
+    background-color: lightgray;
+    color: white;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav1 nav2 nav3 nav4 nav5";
+    justify-content: center;
+    margin: 1% 4% 1% 4%;
+    padding: 0;
+    column-gap: 1px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#nav1{
+    grid-area: nav1;
+}
+
+#nav2{
+    grid-area: nav2
+}
+
+#nav3{
+    grid-area: nav3
+}
+
+#nav4{
+    grid-area: nav4
+}
+
+#nav5{
+    grid-area: nav5
+}
+
+nav hr{
+    margin: 2vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border-right: 2px solid lightgray;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+nav a:nth-child(5){
+    border-right: none;
+}
+
+nav a:visited{
+    color: black;
+}
+
+nav a:hover{
+    font-weight: bolder;
+}
+
+/* FOOTER STYLING */
+
+#foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    border-top: 2px solid black;
+    margin: 1% 4% 1% 4%;
+}
+
+#foot a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#foot a:visited{
+    color: black;
+}
+
+#foot a:hover{
+    font-weight: bolder;
+}
+
+#foot span{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#foot span:after{
+    content: "\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    color: lightgray;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
