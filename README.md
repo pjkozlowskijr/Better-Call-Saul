@@ -7,7 +7,7 @@
 > "If you happen to make an epic fail and find yourself on the wrong side of the law, you know who to call."   
 > -Saul Goodman
 
-The goal of this project is to recreate a lawfirm website based on provided screenshots of four webpages. The photos used for the website were also provided. All other aspects of the website had to be made from scratch. Our group decided to base our website on the lawfirm of Saul Goodman, one of TV's greatest lawyers from the show *Breaking Bad*. 
+The goal of this project is to recreate a lawfirm website based on provided screenshots of four webpages. The photos used for the website were also provided. All other aspects of the website had to be made from scratch. Our group decided to base our website on the lawfirm of Saul Goodman, one of TV's greatest lawyers from the shows *Breaking Bad* and *Better Call Saul*. 
 
 ## Skills Used
 
