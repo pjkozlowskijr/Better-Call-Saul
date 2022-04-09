@@ -1,0 +1,29 @@
+.bg-image{
+    background-image: url("./lawimages/nav_side_sub.jpg");
+    background-repeat: no-repeat;
+    
+}
+h1{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+h5{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+nev{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+hr{
+    height: 10px;
+    background-color: white;
+    border: none;
+}
+li{
+    list-style-type: none;
+}
+
+.left-line {
+    width: 500px;
+}
