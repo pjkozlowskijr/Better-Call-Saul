@@ -174,7 +174,52 @@ nav a:hover{
     list-style: none;
     margin-left: -30px;
 }
-
+.where-we-work{
+    color:white;
+    padding:10px;
+}
 #contact_where{
     color: darkred;
+}
+
+#what-we-do{
+    color:white;
+    padding:10px;
+}
+
+.nav-text-top{
+    color:white;
+}
+
+
+#where-we-work{
+    color:white;
+
+}
+li{
+    list-style-type: none;
+    
+}
+#image1{
+    width: 400px;
+    margin-bottom: 20px;
+}
+#image2{
+    width: 400px;
+    margin-bottom: 20px;
+}
+#image3{
+    width: 400px;
+    margin-bottom: 20px;
+}
+#image4{
+    width: 400px;
+    margin-bottom: 20px;
+}
+#nav-link-image{
+    width:220px;
+    margin-left:7px;
+}
+#background-nav{
+    margin-top:none;
 }
