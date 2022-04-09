@@ -140,3 +140,31 @@ nav a:hover{
     margin-left: 1vw;
     margin-right: 1vw;
 }
+
+/* Who page */
+
+#who_address_list{
+    list-style: none;
+}
+
+#who_news_feed{
+    color: cornsilk;
+}
+
+/* Contact page */
+
+#contact_contact_card{
+    color: cornsilk;
+}
+
+#contact_address_list{
+    list-style: none;
+}
+
+#contact_parking_list{
+    list-style: none;
+}
+
+#contact_where{
+    color: darkred
+}
