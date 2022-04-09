@@ -98,6 +98,7 @@ nav a:visited{
 
 nav a:hover{
     font-weight: bolder;
+    color: black;
 }
 
 /* FOOTER STYLING */
@@ -108,6 +109,7 @@ nav a:hover{
     justify-content: center;
     padding: 0;
     border-top: 2px solid black;
+    margin-top: 2vh;
 }
 
 #foot a{
@@ -139,7 +141,7 @@ nav a:hover{
     margin-right: 1vw;
 }
 
-/* Who page */
+/* WHO WE ARE */
 
 #who_main_picture{
     width: 100%;
@@ -151,10 +153,9 @@ nav a:hover{
     padding: 0;
 }
 
-#who_news_feed{
+#who_news_text{
     color: white;
-    max-width: 400px;
-    margin-left: 30px;
+    padding: 10px;
 }
 
 .scroll {
@@ -162,7 +163,12 @@ nav a:hover{
     overflow-y: auto;
 }
 
-/* Contact page */
+#whobgimg{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CONTACT US */
 
 #contact_contact_card{
     color: white;
@@ -180,6 +186,27 @@ nav a:hover{
     margin-left: -30px;
 }
 
+#contact_phone_image{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: -45px;
+    margin-left: -10px;
+}
+
+#contact_beige_card{
+    margin-top: -30px;
+}
+
+#contact_red_card{
+    margin-top: -30px;
+}
+
+#contact_beige_background{
+    height: 450px;
+}
+
+/* WHERE WE WORK*/
+
 .where-we-work{
     color:white;
     padding:10px;
@@ -188,6 +215,8 @@ nav a:hover{
 #contact_where{
     color: darkred;
 }
+
+/* WHAT WE DO */
 
 #what-we-do{
     color:white;
@@ -233,23 +262,10 @@ li{
 
 #background-nav{
     margin-top:none;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#contact_phone_image{
-    width: 100%;
-    margin-bottom: 50px;
-    margin-top: -45px;
-    margin-left: -10px;
-}
-
-#contact_beige_card{
-    margin-top: -30px;
-}
-
-#contact_red_card{
-    margin-top: -30px;
-}
-
-#contact_beige_background{
-    height: 450px;
+h3{
+    font-weight: lighter;
 }
