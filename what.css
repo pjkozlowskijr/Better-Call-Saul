@@ -1,5 +1,5 @@
 .bg-image{
-    background-image: url("./lawimages/nav_side.jpg");
+    background-image: url("./images/nav_side.jpg");
     background-repeat: no-repeat;
     object-fit:initial;
 
@@ -26,8 +26,8 @@ li{
     list-style-type: none;
 
 }
-nev{
-    color: white;
+p{
+    
     font-family:'Courier New', Courier, monospace;
 
 }
