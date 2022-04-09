@@ -9,52 +9,51 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
+    <main class="container px-1">
         <nav>
             <img id=saul_logo src="./images/saul_logo.png">
             <button id="login">Login</button>
             <ul>
-                <a id="nav1" href="/bcspages/who.html"><li >WHO WE ARE</li></a>
-                <a id="nav2" href=""><li >WHAT WE DO</li></a>
-                <a id="nav3" href=""><li >NEWS & EVENTS</li></a>
-                <a id="nav4" href=""><li >WHERE WE WORK</li></a>
-                <a id="nav5" href="/bcspages/contact.html"><li >CONTACT US</li></a>
+                <a id="nav1" href="./who.html"><li >WHO WE ARE</li></a>
+                <a id="nav2" href="./what.html"><li >WHAT WE DO</li></a>
+                <a id="nav3" href="#"><li >NEWS & EVENTS</li></a>
+                <a id="nav4" href="./where.html"><li >WHERE WE WORK</li></a>
+                <a id="nav5" href="./contact.html"><li >CONTACT US</li></a>
             </ul>
         </nav>
-    </div>
-    <main class="container">
         <div class="row">
-            <div class="col-md-9 fluid p-5"><img src="/images/nza_slideshow.jpg"></div>
-            <div class="col-md-3 fluid p-5" id="who_news_feed">
+            <div class="col-md-8 p-5"><img src="/images/nza_slideshow.jpg" id="who_main_picture"></div>
+            <div class="col-md-4 fluid p-5" id="who_news_feed">
                 <div style="background-image: url(/images/nav_side.jpg);">
-                    <h3>NEWS FEED</h3>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium tempora delectus similique reiciendis vel, recusandae iure dignissimos! Cumque excepturi exercitationem numquam, esse ratione reprehenderit veritatis natus mollitia nobis similique voluptatem!</p>
+                    <div id="who_news-text">
+                        <h3>NEWS FEED</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quae quos dolorem? Praesentium quo laborum quasi. Consectetur maxime, nihil possimus magnam ex, temporibus qui delectus accusantium a, quia praesentium! Facilis sint asperiores quam, sit aperiam explicabo ad excepturi odit fuga architecto repellendus ducimus adipisci distinctio perspiciatis neque officia eligendi nemo non deleniti labore vel saepe quisquam. Quibusdam fugiat non, rerum a laboriosam aliquid quam id ea maxime, sit ipsum recusandae eos itaque dolorem aliquam ut sunt cupiditate consequatur exercitationem voluptates sint esse! Dolores beatae repudiandae voluptates? Fugit soluta ut deleniti iste quam consequuntur quos voluptas accusamus commodi? Consequuntur, recusandae. Id, amet officia. Culpa deleniti possimus</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-9 fluid p-5">
-                <p><strong>Welcome to our website!</strong></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam inventore perspiciatis voluptatem aperiam est aut et porro architecto, deserunt iusto quod similique nostrum voluptate dolorum quae officia hic impedit harum.</p>
-            </div>
-            <div class="col-md-3 fluid p-5">
-                <ul id="who_address_list">
-                    <li><strong>Bigshot, Zoo, & Adds, P.C.</strong></li>
-                    <li>419 West South Street, Suite 4200</li>
-                    <li>Houston, Texas 35983</li>
-                    <li>555-555-5555 (Phone) </li>
-                    <li>555-555-5555 (Fax)</li>
-                </ul>
-            </div>   
-        </div> 
-        <footer id="foot">
-            <span><a href="/bcspages/who.html">WHO WE ARE</a></span>
-            <span><a href="">WHAT WE DO</a></span>
-            <span><a href="">NEWS & EVENTS</a></span>
-            <span><a href="">WHERE WE WORK</a></span>
-            <a href="/bcspages/contact.html">CONTACT US</a>
-        </footer>
+            <div class="col-md-8 fluid p-5">
+                    <p><strong>Welcome to our website!</strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, reiciendis deleniti explicabo nesciunt consectetur tenetur inventore, magni quos ut a in at corrupti accusamus sapiente eaque voluptate corporis laudantium culpa </p>
+            </div>    
+                <div class="col-md-4 fluid p-5">
+                    <ul id="who_address_list">
+                        <li><strong>Bigshot, Zoo, & Adds, P.C.</strong></li>
+                        <li>419 West South Street, Suite 4200</li>
+                        <li>Houston, Texas 35983</li>
+                        <li>555-555-5555 (Phone) </li>
+                        <li>555-555-5555 (Fax)</li>
+                    </ul>
+                </div>
+        </div>
     </main>
-        
+    <footer id="foot">
+        <span><a href="./who.html">WHO WE ARE</a></span>
+        <span><a href="./what.html">WHAT WE DO</a></span>
+        <span><a href="">NEWS & EVENTS</a></span>
+        <span><a href="./where.html">WHERE WE WORK</a></span>
+        <a href="./contact.html">CONTACT US</a>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
