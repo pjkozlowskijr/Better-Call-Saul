@@ -142,28 +142,42 @@ nav a:hover{
 
 /* Who page */
 
+#who_main_picture{
+    width: 110%;
+    height: 90%;
+}
+
 #who_address_list{
     list-style: none;
 }
 
 #who_news_feed{
     color: cornsilk;
+    max-width: 400px;
+    margin-left: 30px;
+}
+
+#who_news_text{
+    
 }
 
 /* Contact page */
 
 #contact_contact_card{
     color: cornsilk;
+    margin-bottom: -100px;
 }
 
 #contact_address_list{
     list-style: none;
+    margin-left: -30px;
 }
 
 #contact_parking_list{
     list-style: none;
+    margin-left: -30px;
 }
 
 #contact_where{
-    color: darkred
+    color: darkred;
 }
