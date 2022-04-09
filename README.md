@@ -29,6 +29,9 @@ The goal of this project is to recreate a lawfirm website based on provided scre
 Gareth Atkins
 - "Who We Are" page
 - "Contact Us" page
+- Collaborating to troubleshoot issues
+  - Page layout
+  - Code structure
 - Collaborating to give site a common style
   - Font family, sizing, and styling
   - Padding and margins in like elements (i.e. sidebars)
@@ -37,6 +40,9 @@ Patrick Kozlowski
 - Creating initial Github repository
 - Page template, including `<nav>` & `<footer>`
 - README.md file
+- Collaborating to troubleshoot issues
+  - Page layout
+  - Code structure
 - Collaborating to give site a common style
   - Font family, sizing, and styling
   - Padding and margins in like elements (i.e. sidebars)
@@ -44,6 +50,11 @@ Patrick Kozlowski
 Marquita Matney
 - "What We Do" page
 - "Where We Work" page
+- Collaborating to troubleshoot issues
+  - Page layout
+  - Code structure
 - Collaborating to give site a common style
   - Font family, sizing, and styling
   - Padding and margins in like elements (i.e. sidebars)
+
+![Saul Add](https://www.dafont.com/forum/attach/orig/2/0/209781.jpg)
