@@ -152,15 +152,22 @@ nav a:hover{
 }
 
 #who_news_feed{
-    color: cornsilk;
-    height: 100%;
+    color: white;
+    max-width: 400px;
+    margin-left: 30px;
+}
+
+.scroll {
+    max-height: 550px;
+    overflow-y: auto;
 }
 
 /* Contact page */
 
 #contact_contact_card{
-    color: cornsilk;
+    color: white;
     margin-bottom: -100px;
+    height: 350px
 }
 
 #contact_address_list{
@@ -173,6 +180,76 @@ nav a:hover{
     margin-left: -30px;
 }
 
+.where-we-work{
+    color:white;
+    padding:10px;
+}
+
 #contact_where{
     color: darkred;
+}
+
+#what-we-do{
+    color:white;
+    padding:10px;
+}
+
+.nav-text-top{
+    color:white;
+}
+
+#where-we-work{
+    color:white;
+}
+
+li{
+    list-style-type: none;  
+}
+
+#image1{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#image2{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#image3{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#image4{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#nav-link-image{
+    width:220px;
+    margin-left:7px;
+}
+
+#background-nav{
+    margin-top:none;
+}
+
+#contact_phone_image{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: -45px;
+    margin-left: -10px;
+}
+
+#contact_beige_card{
+    margin-top: -30px;
+}
+
+#contact_red_card{
+    margin-top: -30px;
+}
+
+#contact_beige_background{
+    height: 450px;
 }
