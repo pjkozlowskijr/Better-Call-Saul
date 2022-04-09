@@ -173,6 +173,7 @@ nav a:hover{
 #contact_contact_card{
     color: white;
     margin-bottom: -100px;
+    margin-left: -20px;
     height: 350px
 }
 
@@ -187,23 +188,47 @@ nav a:hover{
 }
 
 #contact_phone_image{
-    width: 100%;
-    margin-bottom: 50px;
+    width: 120%;
+    margin-bottom: 30px;
     margin-top: -45px;
     margin-left: -10px;
 }
 
 #contact_beige_card{
     margin-top: -30px;
+    width: 200px;
 }
 
 #contact_red_card{
     margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 #contact_beige_background{
     height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+#contact_where{
+    color: darkred;
+    margin-top: 10px;
+}
+
+#contact_corp_people{
+    width: 300px;
+}
+
+#contact-reputation-image{
+    margin-bottom: 10px;
+}
+
+.main_container{
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
 
 /* WHERE WE WORK*/
 
@@ -212,9 +237,7 @@ nav a:hover{
     padding:10px;
 }
 
-#contact_where{
-    color: darkred;
-}
+
 
 /* WHAT WE DO */
 
