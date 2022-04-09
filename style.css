@@ -153,16 +153,22 @@ nav a:hover{
 }
 
 #who_news_feed{
-    color: cornsilk;
+    color: white;
     max-width: 400px;
     margin-left: 30px;
+}
+
+.scroll {
+    max-height: 550px;
+    overflow-y: auto;
 }
 
 /* Contact page */
 
 #contact_contact_card{
-    color: cornsilk;
+    color: white;
     margin-bottom: -100px;
+    height: 350px
 }
 
 #contact_address_list{
@@ -177,4 +183,23 @@ nav a:hover{
 
 #contact_where{
     color: darkred;
+}
+
+#contact_phone_image{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: -45px;
+    margin-left: -10px;
+}
+
+#contact_beige_card{
+    margin-top: -30px;
+}
+
+#contact_red_card{
+    margin-top: -30px;
+}
+
+#contact_beige_background{
+    height: 450px;
 }
