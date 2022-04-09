@@ -24,13 +24,12 @@ nav{
 #saul_logo{
     height: 20vh;
     margin-top: 1%;
-    margin-left: 4%;
 }
 
 #login{
     position: absolute;
     top: 0;
-    right: 4%;
+    right: 1vw;
     height: 5vh;
     width: 5vw;
     border: none;
@@ -48,7 +47,7 @@ nav ul{
     grid-template-areas: 
     "nav1 nav2 nav3 nav4 nav5";
     justify-content: center;
-    margin: 1% 4% 1% 4%;
+    margin: 1% 0 3% 0;
     padding: 0;
     column-gap: 1px;
     border-top: 2px solid black;
@@ -109,7 +108,6 @@ nav a:hover{
     justify-content: center;
     padding: 0;
     border-top: 2px solid black;
-    margin: 1% 4% 1% 4%;
 }
 
 #foot a{
@@ -117,7 +115,7 @@ nav a:hover{
     color: black;
     font-weight: 500;
     margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
 }
 
 #foot a:visited{
@@ -144,18 +142,18 @@ nav a:hover{
 /* Who page */
 
 #who_main_picture{
-    width: 110%;
-    height: 90%;
+    width: 100%;
+    height: auto;
 }
 
 #who_address_list{
     list-style: none;
+    padding: 0;
 }
 
 #who_news_feed{
     color: cornsilk;
-    max-width: 400px;
-    margin-left: 30px;
+    height: 100%;
 }
 
 /* Contact page */
