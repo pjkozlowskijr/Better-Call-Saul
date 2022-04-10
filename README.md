@@ -2,12 +2,15 @@
 
 ![Better Call Saul](https://images.fanart.tv/bigpreview/better-call-saul-54f5f3feafb8a.png)
 
+## View the Github Page
+View our project's [Github page](https://pjkozlowskijr.github.io/bettercallsaul/) for a bonus introductory landing page!
+
 ## About This Project
 
 > "If you happen to make an epic fail and find yourself on the wrong side of the law, you know who to call."   
 > -Saul Goodman
 
-The goal of this project is to recreate a lawfirm website based on provided screenshots of four webpages. The photos used for the website were also provided. All other aspects of the website had to be made from scratch. Our group decided to base our website on the lawfirm of Saul Goodman, one of TV's greatest lawyers from the shows *Breaking Bad* and *Better Call Saul*. 
+The goal of this project is to recreate a lawfirm website based on provided screenshots of four webpages. The photos used for the website were also provided. All other aspects of the website had to be made from scratch. Our group decided to base our website on the lawfirm of Saul Goodman, one of TV's greatest lawyers from the shows *Breaking Bad* and *Better Call Saul*.
 
 ## Skills Used
 
